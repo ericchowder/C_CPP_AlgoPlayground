@@ -1,5 +1,6 @@
 #include "cppVectors.h"
 #include <vector>
+#include <algorithm> //for max_element
 using namespace std;
 
 void vectorExample() {
@@ -38,5 +39,9 @@ void vectorExample() {
 	// in this case it removes the first element of the vector
 	myVector.erase(myVector.begin());
 	cout << "First elem of myVector after using .erase(): " << myVector[0] << endl;
+
+	// max_element displays the largest value in the vector
+	// algorithm library was needed (see above)
+	cout << "This is the max element in myVector: " << *max_element(myVector.begin(), myVector.end()) << endl;
 	
 }
