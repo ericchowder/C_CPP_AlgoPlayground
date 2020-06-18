@@ -3,7 +3,8 @@
 #define CPPVECTORS_H
 
 #include <iostream>
-using namespace std;
+#include <vector>
+#include <algorithm> //for max_element
 
 void vectorExample();
 

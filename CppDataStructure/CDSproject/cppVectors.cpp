@@ -1,6 +1,4 @@
 #include "cppVectors.h"
-#include <vector>
-#include <algorithm> //for max_element
 using namespace std;
 
 void vectorExample() {
