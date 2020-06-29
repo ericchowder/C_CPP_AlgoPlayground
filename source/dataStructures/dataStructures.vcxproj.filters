@@ -21,9 +21,15 @@
     <ClCompile Include="linkedLists.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="hashMaps.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="linkedLists.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hashMaps.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
